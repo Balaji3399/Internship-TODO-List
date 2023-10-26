@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TODO</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+
+    <script src="https://kit.fontawesome.com/d63b211e4f.js" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <h2>ToDoList</h2>
+    </nav>
+
+    <div class="container">
+        <div class="input">
+            <input type="text" placeholder="Task Name" class="task-input">
+            <button id="add-btn"><strong>Add</strong></button>
+        </div>
+        <table id="table-data">
+            <tr>
+                <th>CheckBox</th>
+                <th>Task Name</th>
+            </tr>
+        </table>
+    </div>
+
+    <div class="popup-container add">
+        <div class="popup-content" >
+            <span><i class="fa-solid fa-circle-check fa-beat"></i></span>
+            <p><b>Task has been added successfully</b></p>
+            <button class="btn">Done</button>
+        </div>
+    </div>
+
+    <div class="popup-container update">
+        <div class="popup-content" >
+            <span><i class="fa-solid fa-circle-check fa-beat"></i></span>
+            <p><b>Task has been Updated successfully</b></p>
+            <button class="btn">Done</button>
+        </div>
+    </div>
+
+    <div class="popup-container delete">
+        <div class="popup-content" >
+            <span><i class="fa-solid fa-circle-check fa-beat"></i></span>
+            <p><b>Task has been Deleted successfully</b></p>
+            <button class="btn">Done</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
